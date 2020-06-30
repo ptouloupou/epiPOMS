@@ -12,11 +12,11 @@ The package can be used for simulating from, and performing Bayesian MCMC-based 
 #### Details
 The key functions for this package are:
 
-- obserdata_sim: Simulates epidemics for POMS models.
+- ```obserdata_sim:``` Simulates epidemics for POMS models.
 
-- epiPOMS_mcmc: Performs Bayesian inference on parameters for POMS epidemic models.
+- ```epiPOMS_mcmc:``` Performs Bayesian inference on parameters for POMS epidemic models.
 
-- plot.epiPOMSmcmc: Displays diagnostic plots.
+- ```plot.epiPOMSmcmc:``` Displays diagnostic plots.
 
 #### References
 Touloupou P, Finkenstädt Rand B, Besser TE, French NP, Spencer SEF (2020). “Bayesian Inference for multi-strain epidemics with application to *Escherichia Coli O157:H7* in feedlot cattle.” The Annals of Applied Statistics (in press).
