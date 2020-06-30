@@ -18,6 +18,11 @@ The key functions for this package are:
 
 - ```plot.epiPOMSmcmc:``` Displays diagnostic plots.
 
+#### Install package
+```install.packages("devtools")```
+
+``` devtools::install_github("ptouloupou/epiPOMS")```
+
 #### References
 Touloupou P, Finkenstädt B, Besser TE, French NP, Spencer SEF (2020). “Bayesian Inference for multi-strain epidemics with application to *Escherichia Coli O157:H7* in feedlot cattle.” The Annals of Applied Statistics (in press).
 
