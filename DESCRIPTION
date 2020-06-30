@@ -2,18 +2,18 @@ Package: epiPOMS
 Type: Package
 Title: Bayesian Inference for Partially Observed Multi-Strain Epidemics
 Version: 0.1.0
-Date: 2020-06-13
+Date: 2020-06-30
 Author: Panayiota Touloupou [aut, cre],
     Simon Spencer [ctb]
 Maintainer: Panayiota Touloupou <P.Touloupou.1@warwick.ac.uk>
-URL: https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/touloupou/packages/
+URL: https://github.com/ptouloupou/epiPOMS and https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/touloupou/packages/
 Description: A collection of tools for simulating and analysing partially observed multi-
     strain (POMS) epidemic data. The epidemic models considered are discrete-time 
     individual based multi-state models describing the transmission dynamics of an 
     infectious disease among a population of individuals partitioned into groups. The
     package provides tools for performing Bayesian inference in this model class.  
 Depends: R (>= 3.5.0)
-License: GPL (>= 2)
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 
