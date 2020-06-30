@@ -1,0 +1,22 @@
+year <- sub("-.*", "", meta$Date)
+note1 <- sprintf("R~package, version~%s", meta$Version)
+note2 <- sprintf("(R package, version %s)", meta$Version)
+
+bibentry(
+    header="Citing the package:",
+    bibtype="Manual",
+    title="{epiPOMS}: {Bayesian} Inference for Partially Observed Multi-Strain Epidemics",
+    author=personList(
+      as.person("Panayiota Touloupou"),
+      as.person("Simon E. F. Spencer")
+    ),	   
+    year=year,
+    note=note1,
+    url=meta$URL,
+    textVersion=paste0(
+      "P. Touloupou and S. E. F. Spencer"," (",year,") ",
+      "epiPOMS: Bayesian Inference for Partially Observed Multi-Strain Epidemics ",
+      note2,". ",meta$URL
+    )	   
+)		 
+
